@@ -1,0 +1,22 @@
+{
+  "name": "@pixul/eslint-config",
+  "version": "1.0.0",
+  "description": "ES6 Javascript Style guide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:itdreamteam/esling-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "styleguide"
+  ],
+  "author": "Pixul",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "8.0.1",
+    "eslint-plugin-html": "3.2.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-vue": "2.1.0"
+  }
+}
