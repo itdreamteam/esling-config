@@ -5,11 +5,11 @@ module.exports = {
         // require trailing commas in multiline object literals
         'comma-dangle' : [
             'error', {
-                arrays    : ['error', 'never'],
-                objects   : ['error', 'never'],
-                imports   : ['error', 'never'],
-                exports   : ['error', 'never'],
-                functions : ['error', 'never']
+                arrays    : ['never'],
+                objects   : ['never'],
+                imports   : ['never'],
+                exports   : ['never'],
+                functions : ['never']
             }
         ],
         // require or disallow use of semicolons instead of ASI
