@@ -13,13 +13,10 @@ module.exports = {
         // require parens in arrow function arguments
         // http://eslint.org/docs/rules/arrow-parens
         'arrow-parens'          : [
-            'error', 'as-needed', {
-                requireForBlockBody : true
-            }
+            'error', 'as-needed'
         ],
         // enforces no braces where they can be omitted
         // http://eslint.org/docs/rules/arrow-body-style
-        // TODO: enable requireReturnForObjectLiteral?
         'arrow-body-style'      : [
             'error', 'as-needed', {
                 requireReturnForObjectLiteral : false
