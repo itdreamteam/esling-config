@@ -1,6 +1,6 @@
 {
   "name": "@pixul/eslint-config-pixul",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ES6 Javascript Style guide",
   "main": "index.js",
   "repository": {
