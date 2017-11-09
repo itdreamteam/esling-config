@@ -1,5 +1,5 @@
 module.exports = {
-    extends : [
+    extends       : [
         './rules/references',
         './rules/objects',
         './rules/arrays',
@@ -15,8 +15,8 @@ module.exports = {
         './rules/whitespaces',
         './rules/comma'
     ].map(require.resolve),
-    root    : true,
-    env     : {
+    root          : true,
+    env           : {
         es6      : true,
         commonjs : true,
         node     : true,
@@ -24,7 +24,13 @@ module.exports = {
         mongo    : true,
         browser  : true
     },
-    plugins : [
+    parserOptions : {
+        ecmaVersion  : 6,
+        ecmaFeatures : {
+            experimentalObjectRestSpread : true
+        }
+    },
+    plugins       : [
         'import'
     ]
 };
